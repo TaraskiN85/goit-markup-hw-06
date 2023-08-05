@@ -1,0 +1,122 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 458px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+.container {
+    max-width: 798px;
+}
+
+.section-subtitle {
+  text-align: left;
+}
+
+.standard-list {
+  column-gap: 24px;
+}
+
+/* hero section */
+.hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+    url(../images/hero/dark-bg-tab.jpg);
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+    url(../images/hero/dark-bg-tab-2x.jpg);
+  }
+}
+
+.hero-title {
+  max-width: 496px;
+  font-size: 56px;
+}
+
+.hero-container {
+  gap: 36px;
+}
+
+/* principles section */
+.principles-list-item {
+  width: calc((100% - 24px) / 2);
+}
+
+}
+
+@media screen and (min-width: 1158px) {
+  
+.container {
+  width: 1158px;
+  max-width: 1470px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-subtitle {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.principles-list-text {
+  font-weight: 400;
+}
+  
+/* hero sectiion */
+.hero {
+  max-width: 1440px;
+  background: var(--navyblue);
+  padding: 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+  url(../images/hero/people-office.jpg);
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+    url(../images/hero/people-office-desk-2x.jpg);
+  }
+}
+
+.hero-container {
+  gap: 48px;
+}
+
+.principles {
+  padding: 120px 0;
+}
+
+.principles-subtitle {
+  margin-top: 8px;
+}
+
+.principles-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.principles-list-item .image-container {
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--cloud);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+}
