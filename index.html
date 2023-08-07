@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body class="body">
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="nav">
           <a class="header-logo logo link" href="./index.html"
@@ -65,8 +65,76 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="open-menu-btn" data-menu-open>
+          <svg width="32" height="22">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu-container is-hidden" data-menu>
+        <button
+          type="button"
+          class="menu-close-btn modal-close-btn"
+          data-menu-close
+        >
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mob-menu-list list">
+          <li class="mob-menu-item">
+            <a class="mob-menu-link link current" href="./index.html">Studio</a>
+          </li>
+          <li class="mob-menu-item">
+            <a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="mob-menu-item">
+            <a class="mob-menu-link link" href="">Contacts</a>
+          </li>
+        </ul>
+        <ul class="mob-address-list list">
+          <li class="mob-address-item">
+            <a class="mob-address-link tel link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mob-address-item">
+            <a
+              class="mob-address-link header-link link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mob-socials-list">
+          <li class="mob-socials-link-item socials-link-item">
+            <a href="#" class="mob-socials-link link">
+              <svg class="mob-socials-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use></svg
+            ></a>
+          </li>
+          <li class="mob-socials-link-item socials-link-item">
+            <a href="#" class="mob-socials-link link">
+              <svg class="mob-socials-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use></svg
+            ></a>
+          </li>
+          <li class="mob-socials-link-item socials-link-item">
+            <a href="#" class="socials-link link">
+              <svg class="mob-socials-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use></svg
+            ></a>
+          </li>
+          <li class="mob-socials-link-item socials-link-item">
+            <a href="#" class="mob-socials-link link">
+              <svg class="mob-socials-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
     <main>
       <section class="hero">
         <div class="container hero-container">
@@ -80,7 +148,7 @@
           </button>
         </div>
       </section>
-      <section class="principles">
+      <section class="principles standard-section">
         <div class="container principles-container">
           <h2 class="visually-hidden">Our Principles</h2>
           <ul class="principles-list standard-list list">
@@ -135,7 +203,7 @@
           </ul>
         </div>
       </section>
-      <!-- <section class="services">
+      <section class="services">
         <div class="container services-container">
           <h2 class="services-title section-title">What are we doing</h2>
           <ul class="services-list standard-list list">
@@ -165,8 +233,8 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="team">
+      </section>
+      <section class="team standard-section">
         <div class="container team-container">
           <h2 class="team-title section-title">Our Team</h2>
           <ul class="team-list standard-list list">
@@ -178,7 +246,7 @@
                 width="264"
               />
               <div class="team-item-content">
-                <h3 class="team-subtitle section-subtitle">Mark Guerrero</h3>
+                <h3 class="section-subtitle">Mark Guerrero</h3>
                 <p class="team-list-text item-text">Product Designer</p>
                 <ul class="socials-list">
                   <li class="socials-link-item">
@@ -336,11 +404,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="customers">
+      </section>
+      <section class="customers standard-section">
         <div class="container customers-container">
           <h2 class="customers-title section-title">Customers</h2>
-          <ul class="customers-list list">
+          <ul class="customers-list list standard-list">
             <li class="customers-item">
               <a href="#" class="customers-item-link link">
                 <svg class="customers-svg" width="104" height="56">
@@ -385,9 +453,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="logo-text-container">
           <a class="footer-logo logo link" href="./index.html"
@@ -447,7 +515,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -536,7 +604,7 @@
         </form>
       </div>
     </div>
-    <!-- <script src="./js/modal.js"></script>
-    <script src="./js/mobile-menu.js"></script> -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
